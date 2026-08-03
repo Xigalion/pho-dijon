@@ -43,20 +43,22 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     siteName: 'PHỞ Dijon',
     images: [
-      {
-        url: 'https://images.pexels.com/photos/6646072/pexels-photo-6646072.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        width: 940,
-        height: 650,
-        alt: 'PHỞ Dijon restaurant vietnamien',
-      },
-    ],
+  {
+    url: '/og-image.png',
+    width: 1200,
+    height: 630,
+    alt: 'PHỞ Dijon - Restaurant Vietnamien Authentique',
+  },
+],
   },
 
   twitter: {
-    card: 'summary_large_image',
-    title: 'PHỞ Dijon — Restaurant Vietnamien Authentique',
-    description: 'Cuisine vietnamienne authentique au cœur de Dijon.',
-  },
+  card: 'summary_large_image',
+  title: 'PHỞ Dijon — Restaurant Vietnamien Authentique',
+  description:
+    "Découvrez l'authentique cuisine vietnamienne au cœur de Dijon.",
+  images: ['/og-image.png'],
+},
 };
 
 const restaurantSchema = {
@@ -66,12 +68,12 @@ const restaurantSchema = {
   cuisine: 'Vietnamienne',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '12 Rue des Forges',
+    streetAddress: '8 Rue des Perrières',
     addressLocality: 'Dijon',
     postalCode: '21000',
     addressCountry: 'FR',
   },
-  telephone: '+33 3 80 00 00 00',
+  telephone: '+33 3 80 42 06 34',
   openingHours: 'Mo-Su 11:30-22:00',
   priceRange: '€€',
   servesCuisine: 'Vietnamienne',
@@ -82,7 +84,7 @@ const restaurantSchema = {
     latitude: 47.3220,
     longitude: 5.0310,
   },
-  url: 'https://phodijon.fr',
+  url: 'https://pho-dijon-restaurant.netlify.app',
 };
 
 export default function RootLayout({
