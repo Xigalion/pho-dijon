@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pho-dijon-restaurant.netlify.app/sitemap.xml
