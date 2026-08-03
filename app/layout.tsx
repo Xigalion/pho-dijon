@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   title: 'PHỞ Dijon — Restaurant Vietnamien Authentique à Dijon',
   description:
     "Découvrez l'authentique cuisine vietnamienne au cœur de Dijon. Pho traditionnel, bun, banh mi et bien plus, préparés avec un bouillon d'os mijoté 24 heures et les meilleurs ingrédients. Réservez votre table dès aujourd'hui.",
+
   keywords: [
     'restaurant vietnamien Dijon',
     'pho Dijon',
@@ -27,6 +28,13 @@ export const metadata: Metadata = {
     'restaurant asiatique Dijon',
     'PHỞ Dijon',
   ],
+
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
+
   openGraph: {
     title: 'PHỞ Dijon — Restaurant Vietnamien Authentique',
     description:
@@ -43,6 +51,7 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: 'summary_large_image',
     title: 'PHỞ Dijon — Restaurant Vietnamien Authentique',
